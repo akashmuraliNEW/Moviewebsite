@@ -1,0 +1,107 @@
+.nav-bar{
+    background-color: rgb(19, 196, 61);
+    height: 10vh;
+    color: rgb(227, 229, 231);
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    /* position: sticky;
+    top: 100px; */
+    
+
+}
+.home-contents{
+    margin-left:40% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 20vw;
+    
+    /* flex-wrap: wrap; */
+   
+}
+.home-contents a {
+    text-decoration: none;
+    color: rgb(245, 222, 179);
+    
+}
+.home-contents a:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    animation-duration: 1s;
+    animation-name: inout;
+    width: 30%;
+    height: 30%;
+    background-color: rgb(248, 248, 249);
+
+}
+/* body{
+    background-image: url("https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D");
+    background-repeat: space;
+    background-size: cover;
+}
+
+ */
+.container{
+    margin-top: 10%;
+    background-color: black;
+    padding: 10vh;
+    color:antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(3,150px);
+    gap: 2%;
+    
+    width: 555vw
+    /* grid-template-rows: repeat(1,150px); */
+}
+.head{
+    width: 100%;
+    height: 100%;
+    color: rgb(17, 138, 252);
+    background-color: rgba(214, 14, 14, 0.587);
+    padding: 20px;
+    /* margin: 20px; */
+    
+}
+.animation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    margin-left: 40vh;
+    margin-bottom: 20vh;
+    width: 40vw;
+    height: 40vh;
+    background-color: red;
+    
+    
+}
+.animation>a{
+    animation-duration: 10s;
+    /* animation: ease-in; */
+    animation-name: inout;
+    background-color: rgb(6, 5, 5);
+    animation-iteration-count: infinite;
+
+}
+@keyframes inout {
+    0%{
+        transform: scale(.5);
+    }
+
+    25%{
+        transform: scale(1);
+    }
+    
+}
+
+.animation>a:hover{
+    
+    background-color: black;
+    transform: rotate(-8deg);
+    width: 20vh;
+}
+
